@@ -47,6 +47,7 @@ body {
   border: 2px solid rgba(225, 225, 225, 0.5);
   border-radius: 20px;
   backdrop-filter: blur(10px);
+  /* padding-bottom: 30px; */
 }
 
 .login-heading {
@@ -89,6 +90,8 @@ body {
 }
 .remember{
   font-size: 14px;
+  padding-top: 15px;
+  
 }
 .remember label {
   margin-right: 55px;
@@ -109,6 +112,8 @@ body {
   padding-bottom: 0.625rem;
   border-radius: 1rem;
   background: linear-gradient(to left,rgb(209, 171, 189),rgb(214, 158, 172),rgb(171, 92, 122));
+  
+ 
 }
 .register-link{
   color: black;
@@ -123,4 +128,18 @@ body {
     height: 20px;
     margin-left: 0.625rem;
     margin-right: 0.625rem;
+}
+.registration {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 400px;
+  height: 440px;
+  background: transparent;
+  border: 2px solid rgba(225, 225, 225, 0.5);
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+  padding-bottom: 60px;
 }

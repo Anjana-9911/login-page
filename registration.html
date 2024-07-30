@@ -10,9 +10,50 @@
     <div class="container0">
         <img class="image" src="back.jpg" />
         <div class="overlay"></div>
-        <div class="login">
+        <div class="registration">
           <h2 class="login-heading">Registration</h2>
+          <form>
+            <table class="form-group">
+              <tr class="input-group">
+                <td class="label"><label for="name">Name</label></td>
+                <td><input type="name" id="name" placeholder="" /></td>
+              </tr>
+              <tr class="input-group">
+                <td class="label"><label for="email">Email</label></td>
+                <td><input type="email" id="email" placeholder="" /></td>
+              </tr>
+              <tr class="input-group">
+                <td class="label"><label for="number">Phone No.</label></td>
+                <td><input type="number" id="number" placeholder="" /></td>
+              </tr>
+              <tr class="input-group">
+                <td class="label">
+                  <label for="password">Password</label>
+                </td>
+                <td>
+                  <input type="password" id="password" placeholder="" />
+                </td>
+              </tr>
+            </table>
+  
+            <div class="remember">
+              <label><input type="checkbox" />I agree to the terms and condition</label>
+            </div>
+            <div class="button">
+              <button type="submit">Register</button>
+            </div>
+           
+            <div class="login-register">
+              <p>
+                Already have an account?
+                <a href="http://127.0.0.1:3000/login.html" target="blank" class="register-link">Login</a>
+              </p>
+            </div>
+           
+          </form> 
+    <script src="register.js"></script>
   </body>
+ </html> 
     
 
    
